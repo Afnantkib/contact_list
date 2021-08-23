@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+#header{
+    text-align: center;
+    color: gray;
+    margin-top: 1.5rem;
+}
+#list{
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+}
+ul{
+    width: 35%;
+    
+}
+li:hover{
+    
+    background-color: rgb(74, 144, 255,.5);
+}
+li{background-color: rgb(74, 144, 255);
+    padding:0px 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    transition: all .3s;
+    color: white;
+    border-radius: 10px;
+  
+}
+#name, #phone{
+    position: relative;
+    left:1.3rem;
+    padding: .7rem;
+border: 1px solid rgb(197, 197, 197);
+border-radius: .6rem;
+margin: 0px 30px;
+}
+#button{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+   
+}
+button{position: relative;
+    left: 1.3rem;
+    padding: .6rem;
+    background-color: rgb(74, 144, 255);
+    border:1px solid rgb(255, 255, 255);
+    border-radius: .5rem;
+    color: white;
+    box-shadow: 2px 2px 1px 1px rgb(226, 226, 226);
+    transition: all .3s;
+}
+button:hover{
+    background-color: rgb(74, 144, 255,.5);
+}
+#delete{
+    position: relative;
+    top: 15px;
+}
