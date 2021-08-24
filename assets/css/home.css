@@ -1,6 +1,9 @@
 body{
     margin: 0px;
     font-family: sans-serif;
+    background-image: url('/images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #header{
     text-align: center;
@@ -51,7 +54,7 @@ button{position: relative;
     border:1px solid rgb(255, 255, 255);
     border-radius: .5rem;
     color: white;
-    box-shadow: 2px 2px 1px 1px rgb(226, 226, 226);
+    /* box-shadow: 2px 2px 1px 1px rgb(226, 226, 226); */
     transition: all .3s;
 }
 button:hover{
